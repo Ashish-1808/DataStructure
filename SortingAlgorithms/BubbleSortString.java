@@ -1,3 +1,13 @@
+/*
+-->If there is String array then use comapreTo method for compare two array string elements.
+comapareTo method is used to compare two objects (typicaly for sorting).It comes from comparable interface.
+-->comapareTo is used forcomparing two strings lexicographically.Each character of both strings are conveted into 
+ a unicode value.lexical order is nothing but alphabetically order.
+	 returns<0 : then the string calling the method is lexicographically first
+	 returns==0 : then the string are lexicographically same
+	 returns>0 : then the parameter passed to the compareTo method is lexicographically first.
+ 
+*/
 class BubbleSortString
 {
 	public static void main(String[] args)
